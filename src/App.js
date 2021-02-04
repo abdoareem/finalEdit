@@ -63,7 +63,9 @@ function App() {
         <div className="inputContainer">
           <div className="inputRow">
             <div>Region</div>
-            <RegionSelector dispatch={dispatch} setNumAZs={setNumAZs} />
+            <RegionSelector onChangeRegion={()=>{
+              setServices([]);
+            }} dispatch={dispatch} setNumAZs={setNumAZs} />
           </div>
           <div className="inputRow">
             <div>Availability Zones</div>

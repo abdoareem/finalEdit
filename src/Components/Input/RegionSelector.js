@@ -6,7 +6,7 @@ import { ExclamationCircleOutlined } from '@ant-design/icons';
 const { confirm } = Modal;
 const { Option } = Select;
 
-const RegionSelector = ({ dispatch, setNumAZs }) => {
+const RegionSelector = ({ dispatch, setNumAZs, onChangeRegion }) => {
   const regions = getRegionsList();
 
   const onRegionChange = (val) => {
@@ -17,6 +17,7 @@ const RegionSelector = ({ dispatch, setNumAZs }) => {
       onOk() {
         const region = regions[val];
         setNumAZs(region.azNumber);
+        onChangeRegion();
         dispatch({ type: "CHANGE_REGION", payload: region.regionName });
         },
       onCancel() {
