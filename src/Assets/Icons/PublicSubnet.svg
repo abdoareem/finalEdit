@@ -1,0 +1,35 @@
+<svg width="25" height="25" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="vector-effect: non-scaling-stroke;">
+ <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
+
+ <g>
+  <title>background</title>
+  <rect fill="#ffffff" id="canvas_background" height="27" width="27" y="-1" x="-1"/>
+  <g style="vector-effect: non-scaling-stroke;" display="none" overflow="visible" y="0" x="0" height="100%" width="100%" id="canvasGrid">
+   <rect fill="url(#gridpattern)" stroke-width="0" y="2" x="2" height="600" width="800"/>
+  </g>
+ </g>
+ <g>
+  <title>Layer 1</title>
+
+  <switch style="vector-effect: non-scaling-stroke;" transform="matrix(0.426439, 0, 0, 0.426439, 0.213219, 0.213219)">
+   <g style="vector-effect: non-scaling-stroke;" id="svg_12" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"/>
+   <a style="vector-effect: non-scaling-stroke;" id="svg_13" xlink:href="https://www.diagrams.net/doc/faq/svg-export-text-problems">
+    <text style="vector-effect: non-scaling-stroke;" id="svg_14" y="595" x="400" font-size="10px" text-anchor="middle">Viewer does not support full SVG 1.1</text>
+   </a>
+  </switch>
+
+  <switch style="vector-effect: non-scaling-stroke;" transform="matrix(0.181624, 0, 0, 0.181624, 0.090812, 0.090812)">
+   <g style="vector-effect: non-scaling-stroke;" id="svg_40" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"/>
+   <a style="vector-effect: non-scaling-stroke;" id="svg_41" xlink:href="https://www.diagrams.net/doc/faq/svg-export-text-problems">
+    <text style="vector-effect: non-scaling-stroke;" id="svg_42" y="20" x="12.5" font-size="10px" text-anchor="middle">Viewer does not support full SVG 1.1</text>
+   </a>
+  </switch>
+  <path style="vector-effect: non-scaling-stroke;" id="svg_20" stroke-miterlimit="10" stroke="#000000" fill="none" d="m38.79141,71.05875l9.98932,-0.00182l0,7.45203"/>
+  <path style="vector-effect: non-scaling-stroke;" id="svg_21" stroke-miterlimit="10" stroke="#000000" fill="#000000" d="m48.78073,79.46249l-0.63568,-1.27137l0.63568,0.31784l0.63568,-0.31784l-0.63568,1.27137z"/>
+  <path style="vector-effect: non-scaling-stroke;" id="svg_28" fill="#248814" d="m-0.04976,0.02201l25.20684,0l0,25.20684l-25.20684,0l0,-25.20684zm12.62359,3.23656c-1.12927,0 -2.22828,0.42347 -3.05507,1.18976c-0.82678,0.72596 -1.30067,1.77456 -1.30067,2.87358l0,2.56102l-2.32911,0c-0.09074,0 -0.19157,0.04033 -0.25207,0.11091c-0.07058,0.0605 -0.10083,0.15124 -0.10083,0.24199l0,11.39349c0,0.20165 0.16132,0.36298 0.3529,0.36298l13.32938,0c0.19157,0 0.3529,-0.16132 0.3529,-0.36298l0,-11.37333c0.01008,-0.09074 -0.03025,-0.18149 -0.10083,-0.25207c-0.0605,-0.07058 -0.15124,-0.11091 -0.25207,-0.11091l-2.31903,0l0,-2.52068c-0.01008,-1.08894 -0.46381,-2.12746 -1.26034,-2.87358c-0.82678,-0.79654 -1.9258,-1.23009 -3.06515,-1.24018zm-0.01008,0.72596c0.95786,-0.01008 1.87539,0.3529 2.5711,1.00827c0.66546,0.61505 1.0486,1.48216 1.0486,2.37953l0,2.52068l-7.27974,0l0.01008,-2.55093c0.01008,-0.90745 0.39323,-1.76448 1.06877,-2.36944c0.70579,-0.6453 1.6334,-0.99819 2.58118,-0.98811zm-6.32188,6.62436l12.62359,0l-0.01008,10.65745l-12.6135,0l0,-10.65745zm6.32188,2.25853c-1.03852,-0.01008 -1.91572,0.77637 -2.01655,1.80481c-0.09074,1.03852 0.62513,1.96613 1.64349,2.14762l0,2.803l0.72596,0l0,-2.803c0.93769,-0.17141 1.62332,-0.99819 1.6334,-1.95605c0,-1.09902 -0.88728,-1.9863 -1.9863,-1.99638zm-0.12099,0.71587c0.04033,0 0.08066,0 0.12099,0.01008c0.33273,0 0.65538,0.13108 0.89736,0.37306c0.24199,0.24199 0.37306,0.56463 0.36298,0.89736c0.01008,0.34281 -0.12099,0.66546 -0.36298,0.89736c-0.24199,0.24199 -0.56463,0.37306 -0.89736,0.37306c-0.47389,0.04033 -0.91753,-0.18149 -1.17968,-0.56463c-0.26215,-0.39323 -0.28232,-0.89736 -0.0605,-1.31076c0.22182,-0.41339 0.65538,-0.66546 1.11918,-0.67554z"/>
+  <rect transform="matrix(0.181624, 0, 0, 0.181624, 0.090812, 0.090812)" id="svg_32" stroke="#147eba" fill="none" height="130" width="130" y="18.13097" x="168.08086"/>
+  <g style="vector-effect: non-scaling-stroke;" transform="matrix(0.181624, 0, 0, 0.181624, 0.090812, 0.090812)" id="svg_33" font-size="12px" text-anchor="middle" font-family="Helvetica" fill="#147EBA">
+   <text style="vector-effect: non-scaling-stroke;" id="svg_34" y="35.63097" x="232.58086">Availability Zone</text>
+  </g>
+ </g>
+</svg>
