@@ -11,18 +11,7 @@ const reducer = (state, action) => {
      * @payload {string} The new region name
      */
     case "CHANGE_REGION": {
-      // Create new AZ array with new az object references
-      let newAZs = [];
-      state.AZs.forEach((az) => {
-        newAZs.push(Object.assign({}, az));
-      });
-
-      // Now change the region names
-      newAZs.forEach((az, i) => {
-        az.name = action.payload + az.name.slice(-1);
-      });
-
-      return { ...state, region: action.payload, AZs: newAZs };
+      return { ...state, region: action.payload, AZs: [] };
     }
     /**
      * Adds a new subnet to the AZ

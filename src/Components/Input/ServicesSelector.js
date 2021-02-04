@@ -1,13 +1,7 @@
 import React from "react";
 import { Checkbox } from "antd";
 
-const options = [
-  { label: "S3", value: "S3" },
-  { label: "EC2", value: "EC2" },
-  { label: "GuardDuty", value: "GuardDuty" },
-];
-
-const ServicesSelector = ({ onServicesChange }) => {
+const ServicesSelector = ({ onServicesChange, options }) => {
   return (
     <React.Fragment>
       <Checkbox.Group options={options} onChange={onServicesChange} />

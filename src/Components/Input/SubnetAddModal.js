@@ -8,6 +8,13 @@ const SubnetAddModal = ({ azNumber, dispatch }) => {
   const [services, setServices] = useState([]);
   const [ip, setIp] = useState("");
 
+  const servicesOptions = [
+    { label: "S3", value: "S3"},
+    { label: "EC2", value: "EC2" },
+    { label: "GuardDuty", value: "GuardDuty" },
+    { label: "DB", value: "DB", warningOnPublic: true},
+  ];
+
   const showModal = () => {
     setServices([]);
     setType("public");
@@ -30,8 +37,15 @@ const SubnetAddModal = ({ azNumber, dispatch }) => {
     setIsModalVisible(false);
   };
 
-  function onServicesChange(services) {
-    setServices(services);
+  function onServicesChange(newServices) {
+    let added = newServices.filter(x => services.indexOf(x)===-1)[0];
+    if(type==='public' && servicesOptions.filter(x => x.value === added && x.warningOnPublic).length >0 ){
+      Modal.warning({
+        title: 'Adding a private service to public subnet!',
+        content: 'please note that such service is better to be added to private instead of public subnet',
+      });
+    }
+    setServices(newServices);
   }
 
   function onRadioChange(val) {
@@ -70,7 +84,7 @@ const SubnetAddModal = ({ azNumber, dispatch }) => {
           <br />
           <br />
           <h3>Subnet Services</h3>
-          <ServicesSelector onServicesChange={onServicesChange} />
+          <ServicesSelector options={servicesOptions} onServicesChange={onServicesChange} />
           <br />
           <br />
           <h3>IP Address Block</h3>

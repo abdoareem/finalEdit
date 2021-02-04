@@ -50,6 +50,12 @@ function App() {
     document.body.removeChild(downloadLink);
   }
 
+  const servicesOptions = [
+    { label: "S3", value: "S3"},
+    { label: "EC2", value: "EC2" },
+    { label: "GuardDuty", value: "GuardDuty" },
+  ];
+
   return (
     <div className="App">
       <h1>VPC DIAGRAM GENERATOR</h1>
@@ -73,7 +79,7 @@ function App() {
               Add Availability Zone
             </Button>
           </div>
-          <ServicesSelector onServicesChange={onServicesChange} />
+          <ServicesSelector options={servicesOptions} onServicesChange={onServicesChange} />
           <div className="inputRow">
             <Button block shape="round" onClick={download}>
               Download
