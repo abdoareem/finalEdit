@@ -88,7 +88,7 @@ function App() {
             </Button>
           </div>
         </div>
-        <Diagram AZs={state.AZs} />
+        <Diagram services={services} AZs={state.AZs} />
       </div>
     </div>
   );

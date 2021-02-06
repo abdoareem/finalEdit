@@ -17,6 +17,7 @@ import {
   SUBNET_MARGIN,
   SUBNET_GAP,
 } from "./Diagram/Constants.js";
+import {ICONS} from "./Diagram/Constants";
 
 const styles = {
   container: {
@@ -113,7 +114,7 @@ const NATSubnet = ({ NATType, i }) => {
   );
 };
 
-function Diagram({ AZs }) {
+function Diagram({ AZs, services }) {
   const [width, setWidth] = useState(200);
   const [height, setHeight] = useState(200);
 
@@ -208,6 +209,27 @@ function Diagram({ AZs }) {
             </text>
           </g>
         ))}
+        {services.map(( service, i ) => {
+          const Icon = ICONS[service];
+          const MARGIN_TOP = 40;
+          const textX = AZs.length * AZ_OFFSET + AZ_MARGIN + 30;
+          const textY =  MARGIN_TOP + 90*i + 60;
+          return (
+              <g key={service}>
+                <Icon x={AZs.length * AZ_OFFSET + AZ_MARGIN+10} y={MARGIN_TOP+i*90} />
+                <text
+                    x={textX}
+                    y={textY}
+                    dominantBaseline="top"
+                    textAnchor="middle"
+                    style={styles.serviceText}
+                >
+                  {service}
+                </text>
+              </g>
+
+          );
+        })}
       </svg>
     </div>
   );
